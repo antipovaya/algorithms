@@ -49,6 +49,6 @@ def find_number(lst, number):
 
 number_lst = [[1, 3, 4, 2, 5, 7, 6, 8, 9], [1, 3, 4, 2, 5, 7, 6, 8, 9], [
     1, 3, 4, 2, 5, 7, 6, 8, 9], [1, 3, 4, 2, 7, 6, 8, 9]]
-searched_number = 10
+searched_number = 1
 
 print(find_number(number_lst, searched_number))
