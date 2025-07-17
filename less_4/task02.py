@@ -2,7 +2,7 @@
 
 from timeit import timeit
 
-print(timeit("x = 2 + 2", number=1000))
+print(timeit("x = 2 + 3", number=1000))
 print(timeit("x = sum(range(10))"))
 
 print(timeit("""
