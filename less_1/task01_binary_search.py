@@ -51,6 +51,4 @@ number_lst = [[1, 3, 4, 2, 5, 7, 6, 8, 9], [1, 3, 4, 2, 5, 7, 6, 8, 9], [
     1, 3, 4, 2, 5, 7, 6, 8, 9], [1, 3, 4, 2, 7, 6, 8, 9]]
 searched_number = 7
 
-print(find_number(number_lst, searched_number))
-
-
+print(find_number([sorted(sublist) for sublist in number_lst], searched_number))
